@@ -11,7 +11,7 @@ load_dotenv()
 st.set_page_config(
     page_title="Educate Kids with Similar Words", page_icon="👩‍🎓"
 )
-st.header("Ask a question, and I'll suggest similar words to learn")
+st.header("Hey, Type a Word, and I'll suggest similar words to learn")
 
 # Initialize OpenAIEmbeddings and CSVLoader
 embedding = OpenAIEmbeddings()
